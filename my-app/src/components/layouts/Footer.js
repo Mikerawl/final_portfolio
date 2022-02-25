@@ -7,8 +7,8 @@ const Footer = () => {
 
 
 <div class = "w-full flex justify-center bg-teal-500 p-6">
-  <div><FontAwesomeIcon icon="fa-brands fa-linkedin" /></div>
-  <div><FontAwesomeIcon icon="fa-brands fa-github" /></div>
+  <div className="pr-2"><FontAwesomeIcon icon="fa-brands fa-linkedin" /></div>
+  <div className="pl-2"><FontAwesomeIcon icon="fa-brands fa-github" /></div>
 </div>
 
 )};
