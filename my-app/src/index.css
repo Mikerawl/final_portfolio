@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.link-color {
+  color: blue;
+}
+
+.photo {
+  width: 250px;
+  float: right;
+  margin: 0 0 20px 20px;
+}
