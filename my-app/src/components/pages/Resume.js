@@ -1,11 +1,14 @@
 import React from "react";
 
+import resume from "./images/Michael_Rawlings_Resume.pdf";
+
 const Resume = () => {
   return (
     <div className="md:container md:mx-auto">
       <h1 className="text-4xl object-left-top">Michael's Resume</h1>
 
-      <a class="link-color" href="./assets/Michael_Rawlings_Resume.pdf">Michael's Resume</a>
+      <a class="link-color" href={resume}>Michael's Resume</a>
+
 
       <div>
         <br></br>
