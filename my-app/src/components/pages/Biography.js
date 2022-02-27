@@ -1,6 +1,6 @@
 import React from "react";
 
-
+import facepic from "./images/face_pic.jpeg";
 
 const Biography = () => {
     return (
@@ -10,7 +10,7 @@ const Biography = () => {
 
 <div>
     <br></br>
-        <img src="/assets/images/face_pic.jpeg" className="photo"/>
+        <img src={facepic} className="photo"/>
     <p>Michael Rawlings is a person who has done it all.  Upon graduation from highschool Micheal joined the US Navy,  While still in boot camp Operation Desert Storm started.  Michael Spent two years training as an electronics technician to perform component level repair on various types of electronics equipment.   Michael’s first deployment was as a member in support of Operation Desert Shield.  This brought him to a variety of countries which included. Hong Kong, Thailand, Australia, and Dubai.  While participating in Operation Desert Shield, Michael’s ship launched 11 Tomahawk cruise missiles at Iraq.  In the seven years that Michael was in the Navy he advanced to the rank of Petty Officer Second Class and served in several leadership positions at both sea and shore commands
     </p>
     <br></br>

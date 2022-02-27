@@ -1,4 +1,11 @@
 import React from "react";
+import cinema from "./images/cinema.jpg";
+import notetaker from "./images/note-taker.jpg";
+import playme from "./images/play-me.jpg";
+import weather from "./images/weather.jpg";
+import planner from "./images/planner.jpg";
+
+
 
 const Portfolio = () => {
   return (
@@ -8,7 +15,7 @@ const Portfolio = () => {
       <div className="grid grid-cols-3 gap-4">
         <div className="bg-gray-200 p-4 flex flex-col">
           <h1 className="text-2xl pb-2">Cinemagic</h1>
-          <img src="/assets/images/cinema.jpg" alt="cinemagic" />
+          <img src={cinema} alt="cinemagic" />
           <div className="flex justify-between pt-2">
             <a className="" href="https://github.com/rwashi690/Cinemagic">
               github
@@ -19,7 +26,7 @@ const Portfolio = () => {
 
         <div className="bg-gray-200 p-4 flex flex-col">
           <h1 className="text-2xl pb-2">Note-taker</h1>
-          <img src="/assets/images/note-taker.jpg" alt="Note-taker" />
+          <img src={notetaker} alt="Note-taker" />
           <div className="flex justify-between pt-2">
             <a className="" href="#">
               github
@@ -30,7 +37,7 @@ const Portfolio = () => {
 
         <div className="bg-gray-200 p-4 flex flex-col">
           <h1 className="text-2xl pb-2">Daily Planner</h1>
-          <img src="/assets/images/planner.jpg" alt="daily planner" />
+          <img src={planner} alt="daily planner" />
           <div className="flex justify-between pt-2">
             <a className="" href="https://github.com/Mikerawl/daily-schedule-5">
               github
@@ -41,7 +48,7 @@ const Portfolio = () => {
 
         <div className="bg-gray-200 p-4 flex flex-col">
           <h1 className="text-2xl pb-2">Play Me</h1>
-          <img src="/assets/images/play-me.jpg" alt="PlayMe" />
+          <img src={playme} alt="PlayMe" />
           <div className="flex justify-between pt-2">
             <a className="" href="https://github.com/caitlinw29/PlayMe">
               github
@@ -52,7 +59,7 @@ const Portfolio = () => {
 
         <div className="bg-gray-200 p-4 flex flex-col">
           <h1 className="text-2xl pb-2">Weather</h1>
-          <img src="/assets/images/weather.jpg" alt="weather" />
+          <img src={weather} alt="weather" />
           <div className="flex justify-between pt-2">
             <a className="" href="https://github.com/Mikerawl/homework6">
               github
